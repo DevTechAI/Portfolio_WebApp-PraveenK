@@ -1,0 +1,123 @@
+/**
+ * DevTechAi.Org Footer Branding Styles
+ */
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 2rem 0;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.copyright-text {
+    font-size: 0.95rem;
+    margin: 0;
+    opacity: 0.9;
+}
+
+.powered-by {
+    display: inline-block;
+    padding: 0.6rem 1.5rem;
+    background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.05) 100%);
+    border-radius: 50px;
+    border: 1px solid rgba(255,255,255,0.1);
+    transition: all 0.3s ease;
+}
+
+.powered-by:hover {
+    background: linear-gradient(135deg, rgba(255,255,255,0.15) 0%, rgba(255,255,255,0.08) 100%);
+    border-color: rgba(255,255,255,0.2);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.powered-by-logo {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0.3rem;
+}
+
+.powered-by-text {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+    letter-spacing: 0.5px;
+    line-height: 28px;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.powered-by-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.powered-by-link:hover {
+    color: #4a9eff;
+    text-decoration: none;
+}
+
+.powered-by-link::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(90deg, #4a9eff, #00d4ff);
+    transition: width 0.3s ease;
+}
+
+.powered-by-link:hover::after {
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-content {
+        gap: 1rem;
+    }
+    
+    .powered-by {
+        padding: 0.5rem 1rem;
+    }
+    
+    .powered-by-logo {
+        width: 20px;
+        height: 20px;
+        margin: 0 0.25rem;
+    }
+    
+    .powered-by-text {
+        font-size: 0.85rem;
+        line-height: 20px;
+    }
+    
+    .copyright-text {
+        font-size: 0.85rem;
+        text-align: center;
+    }
+}
+
+/* Dark theme enhancement */
+.footer-divider {
+    width: 100%;
+    max-width: 800px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    margin: 0;
+}
+

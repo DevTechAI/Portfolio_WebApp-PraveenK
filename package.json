@@ -1,0 +1,33 @@
+{
+  "name": "portfolio-webapp-praveenk",
+  "version": "1.0.0",
+  "description": "Professional Photographer's Portfolio Web Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run serve",
+    "serve": "npx http-server public -p 3000 -o",
+    "dev": "npx live-server public --port=3000",
+    "build": "echo 'Static site ready for deployment'",
+    "test": "echo \"No tests specified yet\" && exit 0"
+  },
+  "keywords": [
+    "portfolio",
+    "photography",
+    "webapp",
+    "photographer"
+  ],
+  "author": "DevTechAI.Org",
+  "license": "MIT",
+  "devDependencies": {
+    "clean-css-cli": "^5.6.2",
+    "live-server": "^1.2.2",
+    "terser": "^5.27.0"
+  },
+  "dependencies": {
+    "swiper": "^11.0.5",
+    "lightgallery": "^2.7.1",
+    "cloudinary": "^1.41.0",
+    "dotenv": "^16.3.1"
+  }
+}
+

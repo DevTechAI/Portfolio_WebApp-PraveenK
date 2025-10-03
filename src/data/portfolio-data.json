@@ -1,0 +1,64 @@
+{
+  "photographer": {
+    "name": "Praveen K",
+    "title": "Professional Photographer",
+    "email": "contact@praveenk.com",
+    "phone": "",
+    "location": "",
+    "bio": "Capturing moments that tell stories",
+    "social": {
+      "instagram": "",
+      "facebook": "",
+      "twitter": "",
+      "linkedin": "",
+      "website": ""
+    }
+  },
+  "gallery": {
+    "categories": [
+      {
+        "id": "portraits",
+        "name": "Portraits",
+        "description": "Professional portrait photography",
+        "images": []
+      },
+      {
+        "id": "landscapes",
+        "name": "Landscapes",
+        "description": "Scenic landscape photography",
+        "images": []
+      },
+      {
+        "id": "events",
+        "name": "Events",
+        "description": "Event and wedding photography",
+        "images": []
+      },
+      {
+        "id": "commercial",
+        "name": "Commercial",
+        "description": "Commercial and product photography",
+        "images": []
+      }
+    ]
+  },
+  "services": [
+    {
+      "title": "Portrait Photography",
+      "description": "Professional portrait sessions",
+      "icon": "fa-user"
+    },
+    {
+      "title": "Event Photography",
+      "description": "Weddings, corporate events, and special occasions",
+      "icon": "fa-camera"
+    },
+    {
+      "title": "Commercial Photography",
+      "description": "Product and brand photography",
+      "icon": "fa-briefcase"
+    }
+  ],
+  "testimonials": []
+}
+
